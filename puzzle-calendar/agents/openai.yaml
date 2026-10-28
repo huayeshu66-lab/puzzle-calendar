@@ -1,0 +1,6 @@
+interface:
+  display_name: "谜题日历"
+  short_description: "主动明确需求，制作排版清晰、题目不重复、可直接打印的月历、周历与每日谜题日历"
+  default_prompt: "用 $puzzle-calendar 先问清我的关键需求，再制作漂亮、谜题不重复、可直接打印的日历；先给真实样页，确认后出全本。"
+policy:
+  allow_implicit_invocation: true

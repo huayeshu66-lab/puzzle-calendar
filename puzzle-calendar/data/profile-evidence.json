@@ -1,0 +1,1683 @@
+{
+  "schema_version": "1.0",
+  "verified_date": "2026-10-15",
+  "scope": "two fresh instances per preferred profile; 114x92mm board area; geometric fit only",
+  "human_calibration": "pending",
+  "physical_print": "pending",
+  "profiles": [
+    {
+      "type_id": "slitherlink",
+      "variant": "10x10t0dh",
+      "upstream_difficulty": "Hard",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/loopy.c",
+        "sha256": "f75d88f56393389677228c7ae2d09e79157bdb139781eebf961c083a47a58252",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-slitherlink-0",
+          "board_sha256": "638e53300bd42dfed648dc6554cde8ef2645fff7fe4f05efdedd1b134e441e3b",
+          "public_digest": "b0ee64ff53eb6bff56e596d605983f2eb86a250f52c49c05ae3b52622657a2e5",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 8.814809865533286,
+            "min_clue_pt": 12.49283965226914,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-slitherlink-1",
+          "board_sha256": "20f70a068f49a0d4c782f151ddefb6ae2369e0d17cb7ca0c5b5bd15d82eeb363",
+          "public_digest": "4a94ce2737cd0dc58eeac6d8dc093546ac92027617b0925ba2336a08d530d1b5",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 8.814809865533286,
+            "min_clue_pt": 12.49283965226914,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "hashi",
+      "variant": "7x7i30e10m2d2",
+      "upstream_difficulty": "Hard",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/bridges.c",
+        "sha256": "1da843873d18ebd2f6007b8365ddcc6862ea1b02437b7d8642ee8463a0f4b0cc",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-hashi-0",
+          "board_sha256": "85363a9a6589e552fcae7f704517e5c1bb261486364783d27b01526da402d251",
+          "public_digest": "ca97ad4823ea7e1316252a1329576fc320a00255ec4beccf81f406d1b35b407d",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.276739395776692,
+            "min_clue_pt": 24.332988552005233,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-hashi-1",
+          "board_sha256": "074a15ea24dc7a6cd613ed5c01dc5ccc4e7aeae0dea2899862fb81bbd7f60ccf",
+          "public_digest": "28b023063896010f9d350fba3217bf2c001d4773e0aa07cd56315440c39c58c9",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.276739395776692,
+            "min_clue_pt": 24.332988552005233,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "hitori",
+      "variant": "6x6dk",
+      "upstream_difficulty": "Tricky",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/singles.c",
+        "sha256": "aabc52fbd98fafcc8472bbf09204923e05bd1a5f963d2af5c3581431474a0094",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-hitori-0",
+          "board_sha256": "c23872875104ac9452d65894fc8a5bd99a9dacfb084158843bb824b6c2a4b6d6",
+          "public_digest": "76ccabc3c8c5b0da3f820fad867ca386d4723b175b7a8774806e65c95196ef65",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 14.576507223841253,
+            "min_clue_pt": 28.729749119170215,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-hitori-1",
+          "board_sha256": "35dd33237db4e8c7f1267cdeea8905434a0e4db03bc23ee3cfb853d2a6efeb41",
+          "public_digest": "cfb7dbd932e26f3b9da218b76a4d5f30962f0f47543f8d9c2711c8fd4df580ab",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 14.576507223841253,
+            "min_clue_pt": 28.729749119170215,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "masyu",
+      "variant": "8x8dt",
+      "upstream_difficulty": "Tricky",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/pearl.c",
+        "sha256": "2d3766aee9a8f4bee7394d4a3fbfef79a4a101cac918e6c1a6a3489e0e007710",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-masyu-0",
+          "board_sha256": "50792ea8728072f305a9bbe370db0cd377c25fa73bb7623203ab21a9a89a9436",
+          "public_digest": "7e17f5485c7b9c12d89250aff84c5cd2b900869c8bd2ea5fc7829e7ee1e3444c",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 11.02695175163232,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-masyu-1",
+          "board_sha256": "58a452d0373db55eff300a55421f274d7633b3fe7f8df9f4d6cc1998ede2f2b2",
+          "public_digest": "f1f5ef75f8c21454932b220183824d158c2903ab792db7b6f1ee87f3f23b5358",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 11.02695175163232,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "tents",
+      "variant": "8x8dt",
+      "upstream_difficulty": "Tricky",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/tents.c",
+        "sha256": "b5d2645115010ba6103ad94996233f17baf8f41d0d39f5a1f11ce6b651513bfb",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-tents-0",
+          "board_sha256": "381f134e1ef7ef963274c3627fe18cb27eb2e5a477d006b4d291dcaec4f988c4",
+          "public_digest": "d79671d04a1ffaadf819180339c5975b30daaf94d02655086069c95121de591f",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 9.815476988913941,
+            "min_clue_pt": 13.91178635982571,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-tents-1",
+          "board_sha256": "2a4c14dd42e8909c8af4a71d5bfe1a3f0e01b9885add967b7a8385cee1b2eb2c",
+          "public_digest": "a2c27cfb51b2c062a6981273b8612f95e540039d9638fa63a7d835027e0a3bda",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 9.82768345367019,
+            "min_clue_pt": 13.929086968862793,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "fillomino",
+      "variant": "5x5",
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/filling.c",
+        "sha256": "1701c2cd38e2f5be91b6a68dd78b8e36340ec3f3aa2f04bab72b9031381d28cc",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-fillomino-0",
+          "board_sha256": "17cdb66feb6863e8a12798c651615cf9fabc89909ed6dd781a96f0108efef1c2",
+          "public_digest": "8805f108cacd6463ff8489ae9f98d65604cd61554a02f4a0a067786ffd97fb01",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 17.25000217122423,
+            "min_clue_pt": 18.687502352159584,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-fillomino-1",
+          "board_sha256": "a3fc80b52278d188145ef68678b2a9e627f594dc0f6b971cd3081ca94c0cde5e",
+          "public_digest": "ddfc011e73b16e3f225830bd0ff5776b1931fadee4769a3a4a1b47b46568621d",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 17.25000217122423,
+            "min_clue_pt": 18.687502352159584,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "slant",
+      "variant": "8x8dh",
+      "upstream_difficulty": "Hard",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/slant.c",
+        "sha256": "27b4a72d28b3c32a2b474f3541882a81afb8e59e9ce5a516725aff906752bf24",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-slant-0",
+          "board_sha256": "fe5edfd947f2926ec24046286fcd44a201b28f8fb3bbaffa938439e8bad3f10e",
+          "public_digest": "dadd9f33a8d6177926fcbe4807bc57b6e604d1dd28eec214728cb645adc8c69e",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 10.156063881358067,
+            "min_clue_pt": 14.394020071317433,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-slant-1",
+          "board_sha256": "11c98a6160c54aae5c221b6744e6be5e1897a7f3958f20018108199a9e82fca1",
+          "public_digest": "722e884d234f8573d175b0ceedcdb875549b5a8f313b1f7daae78bf0c7ea9f49",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 10.156063881358067,
+            "min_clue_pt": 14.394020071317433,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "futoshiki",
+      "variant": "5dx",
+      "upstream_difficulty": "Extreme",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/unequal.c",
+        "sha256": "28ca307f3b2fa3bf40a4aa375d527bea2206e0d9dc06705c4735ae133b25f5d5",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-futoshiki-0",
+          "board_sha256": "59f50486a75fafc6d859f978e03122bd6b71fb7885cd8299a224bc3f0571dca7",
+          "public_digest": "5eeb428283869cbe391e6aa3417382a496951ef8677a30ef2de78a64f82a1802",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.674717813509597,
+            "min_clue_pt": 17.96413105144342,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-futoshiki-1",
+          "board_sha256": "c9536c0a19b423972522a1bfd0fb4523fba8ef2e3e93746bddb47f7712fde378",
+          "public_digest": "7d2a1b4230546491791d0fe370666baba64c737abe92185f447d9a3b56de5d04",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.674717813509597,
+            "min_clue_pt": 17.96413105144342,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "net",
+      "variant": "7x7",
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/net.c",
+        "sha256": "42e4c9bc14839d03fc55c9cc1c332ab9e91b0e3e18d70870faf19944c1d4d599",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-net-0",
+          "board_sha256": "43d56f73b203ba06dc3098a4eedc08600465e3989e2fdc5aa626c15d6f9a7e94",
+          "public_digest": "0e9cef9ebb26d750fcda42b4b28851ab34a8425023c98b0c3573e77622e0727c",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.559745201355437,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-net-1",
+          "board_sha256": "ba324e477e9f897e945a33a99d0a5396e87a5f85c530ce244f2b361cf205b71f",
+          "public_digest": "287e84882a9917d661b207decd389d8106cbf1a9295e9e32e61590c7eefe1144",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.559745201355437,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "rect",
+      "variant": "7x7",
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/rect.c",
+        "sha256": "6c3b27879810a735eb5db017acab4fda39a3c0bcbcfa17d4a6149014961e143a",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-rect-0",
+          "board_sha256": "a24da0c2eb027b4cc36c6e1e77944847e883729bfcf29d79e082d27154ebde23",
+          "public_digest": "9d2b0a089f8c40ce2def9e31e0c2879eb5c723684a9dea0c3a7b61ca69bf7e7e",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 10.0,
+            "min_clue_pt": 14.17334,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-rect-1",
+          "board_sha256": "a3cbce836d255572b3e1b67b4e1a3b266ac22cb9d7eb41af46ec076a29f7f9ec",
+          "public_digest": "2a7f04b2abca85b064cea9d931a3694333e5519e485d7bf4cfdfd16411f3bf45",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 10.0,
+            "min_clue_pt": 14.17334,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "dominosa",
+      "variant": "6dh",
+      "upstream_difficulty": "Hard",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/dominosa.c",
+        "sha256": "bfef4cbc32c39ef6d34a3aacd9a58c5c451d5f28fedbf0b162a6ff03d4adfce0",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-dominosa-0",
+          "board_sha256": "b43bf9b7bfdc789c2f5da3ea00de12a0e196355409ce6f4069a73f711367a3a0",
+          "public_digest": "da8929b472e18c7c39c28700712ebb3d7e875fbd812913db88ab90ececa37600",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.0,
+            "min_clue_pt": 17.00798,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-dominosa-1",
+          "board_sha256": "bc9be6ab88954b54538e6025a9c74117ac677161b7ce9bc19ea67d2ddea7a01d",
+          "public_digest": "96b1e6999a04f287333f14f6b72fca35ac3510e59a416b370c433a3eb03661c8",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.0,
+            "min_clue_pt": 17.00798,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "lightup",
+      "variant": "7x7b20s4d2",
+      "upstream_difficulty": "Hard",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/lightup.c",
+        "sha256": "49c2d0721eb7bbbd4e2f00d7f3a29ee79b29fee43cd33da50cc81ef1abbeae0e",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-lightup-0",
+          "board_sha256": "2280fcb2d34505b382a44f344d12659034a7280cbb7f131d9722ac2e4662688c",
+          "public_digest": "36693fd5ad87763ae62dc877aa264a51e68f0fc72e963cbf587219bd16ec394d",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.0,
+            "min_clue_pt": 20.3962,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-lightup-1",
+          "board_sha256": "8b902044bd2efff266bb7962f15a3d830d22d6060de702a3468cbd2f04600771",
+          "public_digest": "1a8fdbd5b795074dc57c77177d09f20e27ae80a6314b15f09b3aea44b57eb48f",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.0,
+            "min_clue_pt": 20.3962,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "map",
+      "variant": "12x9n18dh",
+      "upstream_difficulty": "Hard",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/map.c",
+        "sha256": "79f337e658a2ba38a82f87a46c6b9904a503f4c58089769d7a346729cab1a7a9",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-map-0",
+          "board_sha256": "f38b1a431e2dc67d8756624b76e6950ddc63de8b9c0777b96bf9ae41914d296b",
+          "public_digest": "0a727abddbbba88610996974f592a24c502ab4b09484dd17622d1b6a8f67a1fa",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 8.0,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-map-1",
+          "board_sha256": "7c01b04c94181f9cc251bb302ba371ecf21f36b7f6282a846bd6de5559adbb66",
+          "public_digest": "c5a2f16284b548a552a26b46ba7bae5af73e9c9dea35f73e509b5b8e39900163",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 8.0,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "galaxies",
+      "variant": "7x7du",
+      "upstream_difficulty": "Unreasonable",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/galaxies.c",
+        "sha256": "286bb7e5438263e46d29aa2ca6a2d478b3d5262beaf4371bd4e715f478af9141",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-galaxies-0",
+          "board_sha256": "7a086bdc18048d807136b9a59fe1779071676f20567909a2fda97ebf8fff858a",
+          "public_digest": "af82a68102966a67d373f6f1eee69c73610fa500624bfba1b93a1574bcda000b",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.447789282101692,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-galaxies-1",
+          "board_sha256": "2d1134ad8c370b46c3de01cc78c3c76c8a570776048e8bc1dc300dfdbc0ed874",
+          "public_digest": "3d4c59c0b87e2b77a020264a9c13bda6174db5ad6f292bcbebc15c96e4c3b53a",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.447789282101692,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "keen",
+      "variant": "5dh",
+      "upstream_difficulty": "Hard",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/keen.c",
+        "sha256": "945f65140c17d2471a2814a2263c488e6854f82004f665e61f9f254bfec062cd",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-keen-0",
+          "board_sha256": "df634741bec3195a2c004f7236a54eb5e50b6c6d0b7abbd7f3f3f370c3febfad",
+          "public_digest": "33c8f0422f41851be7b36d8dbc922d2ea29b05e74c2bacc3846d980d554c4d45",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 17.327677396667315,
+            "min_clue_pt": 12.279451116897144,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-keen-1",
+          "board_sha256": "9eeb63b0792e0ea4f7bee8accbb384f1a15d1a542ec4e12fc996f590474c0e6c",
+          "public_digest": "85dafb0b1d68f80df3f92a3c75919d750480b0ed85a3c3998766cbffcd172350",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 17.327677396667315,
+            "min_clue_pt": 12.279451116897144,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "towers",
+      "variant": "5dh",
+      "upstream_difficulty": "Hard",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/towers.c",
+        "sha256": "95ae6a31b83a7e71d084e95eb94a1f49f4c940df47c624723524cee668a956e4",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-towers-0",
+          "board_sha256": "d233a289b5b71332cb3c6049e6cea74775ad024f02c494b41524440f94c1760a",
+          "public_digest": "5525ad69ef14da02a0dffeb35ce0a29d56a2c85ee4db151a9f11cbf0dd4b0a53",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 15.4659306994204,
+            "min_clue_pt": 21.91677039414865,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-towers-1",
+          "board_sha256": "7b40e205e27be451b6575cc95ade9c2c472f2c50e1930951db76ec5a879bfb92",
+          "public_digest": "f975879759a0755c1e163e2a44ab967fa3f28889a62d09219ab08bdf76efdac2",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 15.452077657770234,
+            "min_clue_pt": 21.8971392488262,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "magnets",
+      "variant": "6x5dtS",
+      "upstream_difficulty": "Tricky",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/magnets.c",
+        "sha256": "50eb262f304fe9a7af7e8d90907d117bf791a0c4cedfba0dfaa062e777b22306",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-magnets-0",
+          "board_sha256": "c32d9b32e6cf0ea80e68497525083dd3666034af2eccdf50b9cf26a751e8a3f0",
+          "public_digest": "14f8b4c59ae02e193cb92fe0844cb35065ca4620e985148cd8394227eaeea0d1",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.0,
+            "min_clue_pt": 23.7846,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-magnets-1",
+          "board_sha256": "9defb3e70828304d3c5ed6bdaa8c22b8a6074e80fb462c2fed28d51972da999b",
+          "public_digest": "911045f35a6402c65fdd3bac6ce2ddccbefe703d89b4c6a5a151bd42d5f6d203",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.0,
+            "min_clue_pt": 23.7846,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "signpost",
+      "variant": "5x5c",
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/signpost.c",
+        "sha256": "2e8b60cc31517f2e7871dd4a0f769a4e9168feb76e08bf4ab51466e4baa2121a",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-signpost-0",
+          "board_sha256": "302ed386bb47378e867d5635f5238c69695feabf8c4ba8bdad4264d966bfd02f",
+          "public_digest": "f7729d9c778429f44747e3c01939eeb5a885c3773b5f7244b90972b7224bc5df",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 17.659384309307438,
+            "min_clue_pt": 21.900489213314266,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-signpost-1",
+          "board_sha256": "3111d55e049eca28f5bd0eba1519d4f500fd72a675aa05953ecd0df72a2381f4",
+          "public_digest": "949300b82533be2060da30032c735acef2af53a27334b1153da34ede40746409",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 17.659384309307438,
+            "min_clue_pt": 21.900489213314266,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "range",
+      "variant": "9x6",
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/range.c",
+        "sha256": "d1283023af5876d4b9ec43b6de3fa924aee71fc14a06c0f3c307d6c7792d59cd",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-range-0",
+          "board_sha256": "113f4b045915324f68cee0bd46a409587e1ce1baf9842b6016a1aee33175d670",
+          "public_digest": "c50d885f49413047f958c3107db70b9143655f73970c89635711a651fd64b327",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.214286289859723,
+            "min_clue_pt": 13.232143480681367,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-range-1",
+          "board_sha256": "899d110cdda0f36436b323daca8d05bdb5afe43d8ec17f523da6844fc566d30e",
+          "public_digest": "0585d67a4c06ced4775ec3bd1ec71bb58234465781b9c8ef7bb404e920d2a825",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.214286289859723,
+            "min_clue_pt": 13.232143480681367,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "unruly",
+      "variant": "8x8dn",
+      "upstream_difficulty": "Normal",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/unruly.c",
+        "sha256": "543914b046b0860d193e52f6fb4d48050889e8a1adee21ab0a0fccf73f4b1cec",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-unruly-0",
+          "board_sha256": "e300507c1806e1780c86022fe13e6d5e9fd6e795f88b7fdb3564be5dff80433d",
+          "public_digest": "77cdb82b1207bdf07364b4abe8dfdd8eaea4ada980fc43074542cbce26f926da",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 11.077942833582673,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-unruly-1",
+          "board_sha256": "c387bf3ab55226519246750b00964bf98ee061884ee7adefc91231c49cbd2413",
+          "public_digest": "25db11c33c558c1a77336153761ddbdc1d6077e883b5a63333513903d3dc735e",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 11.077942833582673,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "tracks",
+      "variant": "8x8dh",
+      "upstream_difficulty": "Hard",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/tracks.c",
+        "sha256": "7f33c13ec0146774b11beebe5fdf3923e8409165357dc3f011e8781e8d8aeef2",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-tracks-0",
+          "board_sha256": "90c96a1430856cbccd5cecd5919e5f3acea5254812d7bd7d32be498c293e23ce",
+          "public_digest": "4fd86503292d6f0afcba2f68a8e99a41c81176f6d3122be539d3f9f6088787e8",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 9.569176854005784,
+            "min_clue_pt": 13.48902610921747,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-tracks-1",
+          "board_sha256": "a9557522a3fd7461da8200f1ddfd75c360c083d63d91d08e493c6cd0c8db4c6d",
+          "public_digest": "6cc3fb93a8bffaada437acae76635e291fc7519a3c45042bd7366b417a97420c",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 9.569176854005784,
+            "min_clue_pt": 13.48902610921747,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "palisade",
+      "variant": "5x5n5",
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/palisade.c",
+        "sha256": "11d4ab54396e2c2dd13874dce2f7930b5c88c8450c0e47f0ed574f867f2fbb35",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-palisade-0",
+          "board_sha256": "e3b6e84ace9a27ca89081a6ce9d4eb8446a25e83905c765048b272ee7cd4341f",
+          "public_digest": "d484b381c30a40b63a18902a164488cbcd48df127b8ae393d84f5d8401a5b767",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 14.0,
+            "min_clue_pt": 19.83968,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-palisade-1",
+          "board_sha256": "867f32c8215bd7f9591f948808c8eecf2e2b34f99a10d26bae4e69facfd1ad35",
+          "public_digest": "6d74763bd829c881907cd806e2c7ed6d0a3c1d96d098f51b5fb1bb0bda4cf181",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 14.0,
+            "min_clue_pt": 19.83968,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "undead",
+      "variant": "4x4dt",
+      "upstream_difficulty": "Tricky",
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/undead.c",
+        "sha256": "44cda349ea137fc6624a99628cd7dfa28670c32afc4724063e9ee988a5a5cdcc",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-undead-0",
+          "board_sha256": "d50f0be2983211299240adecacf1eb106c86b8cb3391b3b426414a351fb2de7f",
+          "public_digest": "1f04524d720e5f92b23abbd136c8072c565589516be8c64cf168e08229b57c59",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 15.726497780050757,
+            "min_clue_pt": 12.581198224040605,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-undead-1",
+          "board_sha256": "5dc601a24f173a39c03439e803862b3ed599cb59d92bf996e600e142772ba9dc",
+          "public_digest": "38e3a267cba08b8c0ea2b14796ebcc85cf7fbd375b71fded6118e9744c065b0c",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 15.726497780050757,
+            "min_clue_pt": 12.581198224040605,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "mosaic",
+      "variant": "8x8",
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/mosaic.c",
+        "sha256": "005314d75005b71b15ff75e0ded5d985a368e2dc1080412d4f506ad30153f2d5",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-mosaic-0",
+          "board_sha256": "fae1d28395594371b545242354525959dc6e9f81748a34ff59d2c42ccdecfa74",
+          "public_digest": "5e2480844814b593e9d4962a531c361d0396c072d5aeaca2ddc868e24abf5ffc",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 11.039998712000152,
+            "min_clue_pt": 12.87999849733351,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-mosaic-1",
+          "board_sha256": "73c8b7268b9284cc68b1e0244967d55c8696187e5df1257c095a2525f4895ee5",
+          "public_digest": "13177286e2ea5e507c3a4dd3262c5a1c568a9489ada106e95c199e7ab2c9f0e7",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 11.039998712000152,
+            "min_clue_pt": 12.87999849733351,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "star_battle",
+      "variant": "6x6",
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/cspuz-probe/smoke_one.py",
+        "sha256": "e3cd16e1cf6742caae4443f0a98c54f818f3455afb00107f545e20046c00f23d",
+        "basis": "reviewed size argument and size-independent rule checker"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-star_battle-0",
+          "board_sha256": "21097c42a4e23ce80c585d39160b64b52e444e88508188877c71d9a9d7471b77",
+          "public_digest": "d5db97b8c4bb32554a13d20e8ff8a3d4f48133d7e409e0086901bfb0e809d53a",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 14.526313825023351,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-star_battle-1",
+          "board_sha256": "15b4ab97eee0f7c20fd4d8d8b81941661f4ea56dbf3ab7cd06e534f1d5ce25ed",
+          "public_digest": "2b15cc79c32040020180e4380b770ffc8abba9155511eb0da2c7cbbfa2deaf59",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 14.526313825023351,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "nurikabe",
+      "variant": "4x4",
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/cspuz-probe/smoke_one.py",
+        "sha256": "e3cd16e1cf6742caae4443f0a98c54f818f3455afb00107f545e20046c00f23d",
+        "basis": "reviewed size argument and size-independent rule checker"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-nurikabe-0",
+          "board_sha256": "502defe2eb3f69cc8134a3b00402527ac89b1994b9a3a8e81699e18bc4118393",
+          "public_digest": "d6377e0555006caa905e3c023e31a42d9cb63d936663a42b2384b913076b7858",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 21.23076560157853,
+            "min_clue_pt": 21.23076560157853,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-nurikabe-1",
+          "board_sha256": "6e572fb11e1ca4b380a2aa746db8a29a0ad44802c67ef48c9b87bc55ecf36d72",
+          "public_digest": "694b88dd5d5cea7ce688b6b7fe6d2ef486c5bd52703c4f31461b4c54e4da3fba",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 21.23076560157853,
+            "min_clue_pt": 21.23076560157853,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "lits",
+      "variant": "6x6",
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/cspuz-probe/smoke_one.py",
+        "sha256": "e3cd16e1cf6742caae4443f0a98c54f818f3455afb00107f545e20046c00f23d",
+        "basis": "reviewed size argument and size-independent rule checker"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-lits-0",
+          "board_sha256": "74059620fc1ac6cf390ca96585f94328a396ced0495164c821236b575863c358",
+          "public_digest": "b14ca67b3ff1ab111b4aae2d4148b83158e8faa06400e7b56bb19b483c233abe",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 14.526313825023351,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-lits-1",
+          "board_sha256": "5dddb8badf5684a6612307cdcca492fabb9dac4dd860228fb98b5ad627706f85",
+          "public_digest": "e3364eca61df9b18db613106fe8325ea9121ad1c2f82fdabc9f6b5bd308b4160",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 14.526313825023351,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "heyawake",
+      "variant": "6x6",
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/cspuz-probe/smoke_one.py",
+        "sha256": "e3cd16e1cf6742caae4443f0a98c54f818f3455afb00107f545e20046c00f23d",
+        "basis": "reviewed size argument and size-independent rule checker"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-heyawake-0",
+          "board_sha256": "13701a02bc84caacd6ea03a3a47ca67a8e2e9d6504121c5ef8dc82712e029fa5",
+          "public_digest": "bbd78ef1b37f705285c90403d199889776e572c3a420c110f941b522ca704c1c",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 14.526313825023351,
+            "min_clue_pt": 14.526313825023351,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-heyawake-1",
+          "board_sha256": "8abe514d31fa3e424d41690c49531c4ce016c29911525ebb2e85a178aeb0f9e8",
+          "public_digest": "d069d435ed843aaceec6704374f12b750f26bee47be7a0c4f6f53a9135d335a3",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 14.526313825023351,
+            "min_clue_pt": 14.526313825023351,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "nurimisaki",
+      "variant": "6x6",
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/cspuz-probe/smoke_one.py",
+        "sha256": "e3cd16e1cf6742caae4443f0a98c54f818f3455afb00107f545e20046c00f23d",
+        "basis": "reviewed size argument and size-independent rule checker"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-nurimisaki-0",
+          "board_sha256": "185a0e02fb8aa66c313f295573bbcb35e698943e3f58051c41de99083b862939",
+          "public_digest": "979d356ba2b987a270a8c188de1263eacd529472d59146b8b16633a2cda392a7",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 14.526313825023351,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-nurimisaki-1",
+          "board_sha256": "203c94e382c007957b5c99c1acdafd976e2572bfa43e40c470d3b8a0dc4f1e7b",
+          "public_digest": "e764bb64ec7b11ec5fe0573695fcd3f8f264ec0602ec4cccf92458a0e9e33487",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 14.526313825023351,
+            "min_clue_pt": null,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "kakuro",
+      "variant": null,
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/gap-three-probe/probe.py",
+        "sha256": "ebef73ebc79ffe0321d7cea78c8c2e99de857383c3d955a746c048e4d354dc4f",
+        "basis": "existing small fixed experimental specification"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-kakuro-0",
+          "board_sha256": "ba56dd3fd90898541037b68be13fe2b4455442d1c36cd21d1d1bc41518e5ba01",
+          "public_digest": "9f56a4cbbc874ca1bde448a2a75b2d9784d542ae870a8addb4e1853001b6b599",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 24,
+            "min_clue_pt": 22.0,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-kakuro-1",
+          "board_sha256": "ea7d0351dfbfa3ba81ce90223c0b1c3da3daff56e5f77081ccdcaf446462d561",
+          "public_digest": "7b5b732fdd8294a634aae7b3497ae373bd55bcb62d0101505fb055a62406ef58",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 24,
+            "min_clue_pt": 22.0,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "battleship",
+      "variant": null,
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/gap-three-probe/probe.py",
+        "sha256": "ebef73ebc79ffe0321d7cea78c8c2e99de857383c3d955a746c048e4d354dc4f",
+        "basis": "existing small fixed experimental specification"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-battleship-0",
+          "board_sha256": "e7b67865ef5f1439ed960821b0166e26ce14413ed04266a3818c2746fa5f8483",
+          "public_digest": "c73db49492e0ad02b42eaecef5e8c81d1f9431852d4cc3ad2efa176d3dc1d467",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.131866058044874,
+            "min_clue_pt": 12.131866058044874,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-battleship-1",
+          "board_sha256": "a9dff7353717039e59abf76103f45b0083fb8de1ac52bbcee7332bff81a10641",
+          "public_digest": "26e68c80aed68c88205e49037f3bf053c6f12fc3e275ab99a02a4b4f8f349e51",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 12.131866058044874,
+            "min_clue_pt": 12.131866058044874,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    },
+    {
+      "type_id": "numberlink",
+      "variant": null,
+      "upstream_difficulty": null,
+      "source_review": {
+        "source_path": "work/gap-three-probe/probe.py",
+        "sha256": "ebef73ebc79ffe0321d7cea78c8c2e99de857383c3d955a746c048e4d354dc4f",
+        "basis": "existing small fixed experimental specification"
+      },
+      "samples": [
+        {
+          "seed": "profiles-20261015-numberlink-0",
+          "board_sha256": "3f80b6500cf2c1ca388b87c76a92eecd30c1ef2eeafd0c4027367418f80c6395",
+          "public_digest": "2ac3a1c2fe6735fb780dde1fdefcd14a253c4920e0cf2ca41442e89fe43ae2a4",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 21.23076560157853,
+            "min_clue_pt": 21.23076560157853,
+            "fits_current_layout": true
+          }
+        },
+        {
+          "seed": "profiles-20261015-numberlink-1",
+          "board_sha256": "499632c4abfa9b0dc7284bed7dc329b574f24db5579ce94c69ed3eed77bb4c6a",
+          "public_digest": "c870dc0e0034e84c52f294d49a9ec40a7ba21568428a2826627f2d1d6999517c",
+          "proof": {
+            "answer_rule_checked": true,
+            "unique_verified": true,
+            "first_status": "sat",
+            "second_status": "unsat"
+          },
+          "a5_fit": {
+            "available_mm": [
+              114,
+              92
+            ],
+            "cell_mm": 21.23076560157853,
+            "min_clue_pt": 21.23076560157853,
+            "fits_current_layout": true
+          }
+        }
+      ]
+    }
+  ],
+  "retired_experiments": [
+    {
+      "type_id": "nurikabe",
+      "variant": "6x6",
+      "successes": 2,
+      "additional_timeouts": 3,
+      "automatic_use": false,
+      "reason": "seed-sensitive randomized generation did not finish within 20-30 second budgets"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://github.com/codebox/maze.js",
+  "commit": "ce77969a778f642043828f3345396736c6d8f5b8",
+  "files": [
+    {
+      "file": "LICENSE",
+      "sha256": "753b164d39ab7c976fd3ae4e60ec5e03c776db0b0965056a34b14cb9c4817e88"
+    },
+    {
+      "file": "algorithms.js",
+      "sha256": "0d2d6bde63ccaca6780655c31663bdddd2f0b78f88833b9994c35fe294f18778"
+    },
+    {
+      "file": "constants.js",
+      "sha256": "4574b4cd231f6a02808f1db78a7ce33c0f8754f4a0655d1f6fc78510d2a9ee59"
+    },
+    {
+      "file": "maze.js",
+      "sha256": "538c5dd23436883cd83b67c22ce58474d0aca60d42ba132c5d67d97921dcb112"
+    },
+    {
+      "file": "random.js",
+      "sha256": "3653de95bcbdd739599c055dd180a4cc89f21aca31e3c3a0aa9e6ae506aef017"
+    },
+    {
+      "file": "utils.js",
+      "sha256": "c1bc8bb7d5a4720fe6ee18f277b0a971ca63891d752de2359341aa7fa0b6481c"
+    }
+  ],
+  "scope": "Unmodified runtime files needed by circular-maze adapter; browser UI omitted"
+}

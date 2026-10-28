@@ -1,0 +1,779 @@
+{
+  "schema_version": "1.0",
+  "profiles": [
+    {
+      "type_id": "slitherlink",
+      "name_zh": "数回",
+      "family": "path",
+      "variant": "10x10t0dh",
+      "upstream_difficulty": "Hard",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/loopy.c",
+        "sha256": "f75d88f56393389677228c7ae2d09e79157bdb139781eebf961c083a47a58252",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "hashi",
+      "name_zh": "桥梁",
+      "family": "path",
+      "variant": "7x7i30e10m2d2",
+      "upstream_difficulty": "Hard",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/bridges.c",
+        "sha256": "1da843873d18ebd2f6007b8365ddcc6862ea1b02437b7d8642ee8463a0f4b0cc",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "hitori",
+      "name_zh": "独数",
+      "family": "number",
+      "variant": "6x6dk",
+      "upstream_difficulty": "Tricky",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/singles.c",
+        "sha256": "aabc52fbd98fafcc8472bbf09204923e05bd1a5f963d2af5c3581431474a0094",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "masyu",
+      "name_zh": "珍珠",
+      "family": "path",
+      "variant": "8x8dt",
+      "upstream_difficulty": "Tricky",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/pearl.c",
+        "sha256": "2d3766aee9a8f4bee7394d4a3fbfef79a4a101cac918e6c1a6a3489e0e007710",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "tents",
+      "name_zh": "帐篷",
+      "family": "shade",
+      "variant": "8x8dt",
+      "upstream_difficulty": "Tricky",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/tents.c",
+        "sha256": "b5d2645115010ba6103ad94996233f17baf8f41d0d39f5a1f11ce6b651513bfb",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "fillomino",
+      "name_zh": "分割数",
+      "family": "region",
+      "variant": "5x5",
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/filling.c",
+        "sha256": "1701c2cd38e2f5be91b6a68dd78b8e36340ec3f3aa2f04bab72b9031381d28cc",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration",
+        "7x7 second-solution proof exceeded two bounded probes; use 5x5"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "slant",
+      "name_zh": "斜线",
+      "family": "path",
+      "variant": "8x8dh",
+      "upstream_difficulty": "Hard",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/slant.c",
+        "sha256": "27b4a72d28b3c32a2b474f3541882a81afb8e59e9ce5a516725aff906752bf24",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "futoshiki",
+      "name_zh": "不等式",
+      "family": "number",
+      "variant": "5dx",
+      "upstream_difficulty": "Extreme",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/unequal.c",
+        "sha256": "28ca307f3b2fa3bf40a4aa375d527bea2206e0d9dc06705c4735ae133b25f5d5",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "net",
+      "name_zh": "网络连线",
+      "family": "path",
+      "variant": "7x7",
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/net.c",
+        "sha256": "42e4c9bc14839d03fc55c9cc1c332ab9e91b0e3e18d70870faf19944c1d4d599",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "rect",
+      "name_zh": "矩形分区",
+      "family": "region",
+      "variant": "7x7",
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/rect.c",
+        "sha256": "6c3b27879810a735eb5db017acab4fda39a3c0bcbcfa17d4a6149014961e143a",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "dominosa",
+      "name_zh": "多米诺配对",
+      "family": "region",
+      "variant": "6dh",
+      "upstream_difficulty": "Hard",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/dominosa.c",
+        "sha256": "bfef4cbc32c39ef6d34a3aacd9a58c5c451d5f28fedbf0b162a6ff03d4adfce0",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "lightup",
+      "name_zh": "点灯",
+      "family": "shade",
+      "variant": "7x7b20s4d2",
+      "upstream_difficulty": "Hard",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/lightup.c",
+        "sha256": "49c2d0721eb7bbbd4e2f00d7f3a29ee79b29fee43cd33da50cc81ef1abbeae0e",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "map",
+      "name_zh": "地图着色",
+      "family": "region",
+      "variant": "12x9n18dh",
+      "upstream_difficulty": "Hard",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/map.c",
+        "sha256": "79f337e658a2ba38a82f87a46c6b9904a503f4c58089769d7a346729cab1a7a9",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "galaxies",
+      "name_zh": "银河",
+      "family": "region",
+      "variant": "7x7du",
+      "upstream_difficulty": "Unreasonable",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/galaxies.c",
+        "sha256": "286bb7e5438263e46d29aa2ca6a2d478b3d5262beaf4371bd4e715f478af9141",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "keen",
+      "name_zh": "算术笼",
+      "family": "number",
+      "variant": "5dh",
+      "upstream_difficulty": "Hard",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/keen.c",
+        "sha256": "945f65140c17d2471a2814a2263c488e6854f82004f665e61f9f254bfec062cd",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "towers",
+      "name_zh": "摩天楼",
+      "family": "number",
+      "variant": "5dh",
+      "upstream_difficulty": "Hard",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/towers.c",
+        "sha256": "95ae6a31b83a7e71d084e95eb94a1f49f4c940df47c624723524cee668a956e4",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "magnets",
+      "name_zh": "磁铁",
+      "family": "shade",
+      "variant": "6x5dtS",
+      "upstream_difficulty": "Tricky",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/magnets.c",
+        "sha256": "50eb262f304fe9a7af7e8d90907d117bf791a0c4cedfba0dfaa062e777b22306",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "signpost",
+      "name_zh": "方向序列",
+      "family": "path",
+      "variant": "5x5c",
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/signpost.c",
+        "sha256": "2e8b60cc31517f2e7871dd4a0f769a4e9168feb76e08bf4ab51466e4baa2121a",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "range",
+      "name_zh": "黑格视距",
+      "family": "shade",
+      "variant": "9x6",
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/range.c",
+        "sha256": "d1283023af5876d4b9ec43b6de3fa924aee71fc14a06c0f3c307d6c7792d59cd",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "unruly",
+      "name_zh": "二进制网格",
+      "family": "number",
+      "variant": "8x8dn",
+      "upstream_difficulty": "Normal",
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/unruly.c",
+        "sha256": "543914b046b0860d193e52f6fb4d48050889e8a1adee21ab0a0fccf73f4b1cec",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "tracks",
+      "name_zh": "铁路",
+      "family": "path",
+      "variant": "8x8dh",
+      "upstream_difficulty": "Hard",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/tracks.c",
+        "sha256": "7f33c13ec0146774b11beebe5fdf3923e8409165357dc3f011e8781e8d8aeef2",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "palisade",
+      "name_zh": "围栏分区",
+      "family": "region",
+      "variant": "5x5n5",
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/palisade.c",
+        "sha256": "11d4ab54396e2c2dd13874dce2f7930b5c88c8450c0e47f0ed574f867f2fbb35",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "undead",
+      "name_zh": "镜面怪物",
+      "family": "region",
+      "variant": "4x4dt",
+      "upstream_difficulty": "Tricky",
+      "challenge_candidate": true,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/undead.c",
+        "sha256": "44cda349ea137fc6624a99628cd7dfa28670c32afc4724063e9ee988a5a5cdcc",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "mosaic",
+      "name_zh": "马赛克",
+      "family": "shade",
+      "variant": "8x8",
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/tatham-source/puzzles-20260923.616da16/mosaic.c",
+        "sha256": "005314d75005b71b15ff75e0ded5d985a368e2dc1080412d4f506ad30153f2d5",
+        "basis": "reviewed parameter decoder and source difficulty enumeration"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "star_battle",
+      "name_zh": "星战",
+      "family": "region",
+      "variant": "6x6",
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/cspuz-probe/smoke_one.py",
+        "sha256": "e3cd16e1cf6742caae4443f0a98c54f818f3455afb00107f545e20046c00f23d",
+        "basis": "reviewed size argument and size-independent rule checker"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "nurikabe",
+      "name_zh": "数墙",
+      "family": "shade",
+      "variant": "4x4",
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/cspuz-probe/smoke_one.py",
+        "sha256": "e3cd16e1cf6742caae4443f0a98c54f818f3455afb00107f545e20046c00f23d",
+        "basis": "reviewed size argument and size-independent rule checker"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration",
+        "6x6 passed 2 probes but 3 additional seeds timed out at 20-30s; automatic default is 4x4, explicit 6x6 remains experimental"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ],
+      "reviewed_variants": [
+        "4x4",
+        "6x6"
+      ]
+    },
+    {
+      "type_id": "lits",
+      "name_zh": "LITS 四格",
+      "family": "region",
+      "variant": "6x6",
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/cspuz-probe/smoke_one.py",
+        "sha256": "e3cd16e1cf6742caae4443f0a98c54f818f3455afb00107f545e20046c00f23d",
+        "basis": "reviewed size argument and size-independent rule checker"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "heyawake",
+      "name_zh": "部屋",
+      "family": "shade",
+      "variant": "6x6",
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/cspuz-probe/smoke_one.py",
+        "sha256": "e3cd16e1cf6742caae4443f0a98c54f818f3455afb00107f545e20046c00f23d",
+        "basis": "reviewed size argument and size-independent rule checker"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "nurimisaki",
+      "name_zh": "海岬",
+      "family": "shade",
+      "variant": "6x6",
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/cspuz-probe/smoke_one.py",
+        "sha256": "e3cd16e1cf6742caae4443f0a98c54f818f3455afb00107f545e20046c00f23d",
+        "basis": "reviewed size argument and size-independent rule checker"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "no unified or human difficulty calibration"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "kakuro",
+      "name_zh": "数和",
+      "family": "number",
+      "variant": null,
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/gap-three-probe/probe.py",
+        "sha256": "ebef73ebc79ffe0321d7cea78c8c2e99de857383c3d955a746c048e4d354dc4f",
+        "basis": "existing small fixed experimental specification"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "tiny experimental specification; not a challenge claim"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "battleship",
+      "name_zh": "战舰",
+      "family": "shade",
+      "variant": null,
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/gap-three-probe/probe.py",
+        "sha256": "ebef73ebc79ffe0321d7cea78c8c2e99de857383c3d955a746c048e4d354dc4f",
+        "basis": "existing small fixed experimental specification"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "tiny experimental specification; not a challenge claim"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    },
+    {
+      "type_id": "numberlink",
+      "name_zh": "连数",
+      "family": "path",
+      "variant": null,
+      "upstream_difficulty": null,
+      "challenge_candidate": false,
+      "human_calibration": "pending",
+      "enabled": true,
+      "source_review": {
+        "source_path": "work/gap-three-probe/probe.py",
+        "sha256": "ebef73ebc79ffe0321d7cea78c8c2e99de857383c3d955a746c048e4d354dc4f",
+        "basis": "existing small fixed experimental specification"
+      },
+      "runtime_status": "two_distinct_instances_verified",
+      "a5_fit_status": "fits",
+      "limitations": [
+        "tiny experimental specification; not a challenge claim"
+      ],
+      "tested_board_area_mm": [
+        114,
+        92
+      ]
+    }
+  ]
+}
