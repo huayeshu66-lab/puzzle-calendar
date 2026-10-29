@@ -2,7 +2,7 @@
 name: puzzle-calendar
 description: Design and produce printable puzzle calendars from user intent, including dated puzzle pages, style exploration, revisions, verified answers, print layouts, and resumable delivery. Use for 谜题日历、每日一题日历、可打印益智台历. Ordinary puzzle booklets belong to puzzle-publisher.
 metadata:
-  version: "2.3.4"
+  version: "2.3.5"
 ---
 
 # Puzzle Calendar 谜题日历
@@ -51,7 +51,7 @@ metadata:
 繁简是页面关系的设计要求：重新安排主视觉、黑白／色块面积、信息层级与留白，不靠从极繁稿中删图案来得到适中稿，也不靠堆饰解决“没特色”。不受既有候选风格限制；主流品牌、畅销款或趋势只用于提出有依据的候选，不能代替当前用户选择。
 题面也参加设计：在基础外形上，按用户喜欢的风格组织线条、填充、圆圈／节点和整体轮廓，让题盘本身成为主题意象，例如东方古典风的蜂巢数回可探索莲蓬。把规则结构与视觉外观分开：允许不改变题意的柔化和位置映射，保护线索归属、邻接关系、可读性与作答面积；比较完整页并附题面近景。设计方法、莲蓬示例与核对要求见 [设计评审](references/design-review.md#让题盘本身表达风格)。
 用户希望题盘成为主视觉时，可参考 [题盘与主题造型融合](references/design-review.md#题盘与主题造型融合主体细密书写区留白)：用主体结构组织细节，并为落笔与随手记保留真实空间。“好看”与“达到所需繁简程度”分别记录，不把前者当成极繁达标或批量风格选定。
-主题造型不只限于数回与迷宫，按 [题型与主题造型](references/puzzle-forms.md#题型与主题造型储备) 选择相容方向；区分题面即显、解答后显现或双阶段呈现。依赖答案才能确定的边界、连线、填色与主题细节只放在所选答案载体，先核对是否泄题，方法见 [主题的呈现阶段](references/design-review.md#主题的呈现阶段)。这些方向是设计储备，不因收录而变成已内置生成能力。
+主题造型不只限于数回与迷宫，按 [题型与主题造型](references/puzzle-forms.md#题型与主题造型储备) 选择相容方向；优先让题面本身形成完整主题；解答后显现只作少量点缀，不作为默认方案或与题面即显平均分配。双阶段也以题面成立为前提，不靠答案补救平淡题页。依赖答案才能确定的边界、连线、填色与主题细节只放在所选答案载体，先核对是否泄题，方法见 [主题的呈现阶段](references/design-review.md#主题的呈现阶段)。这些方向是设计储备，不因收录而变成已内置生成能力。
 主题物按地区、季节、生长阶段或具体节庆匹配日期，并复核画面状态；适用窗口、用户指定例外及旧样页边界见 [主题物与日期对应](references/design-review.md#主题物与日期对应)。
 必要时先用已核实的参考图或概念图确认大方向；概念PNG、真实可打印PDF、用户风格确认分开标明。图像生成可用于原创插画或配色探索，正式日期与谜题必须从可靠结构数据排入并核对，不能把生成比较图直接当成已验收日历。
 风格备选与来源见 [风格库](references/style-library.md)、[设计研究](references/calendar-design-research.md)。所选风格与配色、题面处理对应当前候选版本，确认范围和真实用户反馈记入任务，不能凭内部判断填认可。
